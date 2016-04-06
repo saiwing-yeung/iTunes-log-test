@@ -181,7 +181,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 			let defaultLogLoc = allPaths.first!.stringByAppendingString("/itunes-log.csv")
 
 			defaults.setObject(defaultLogLoc, forKey: "logLoc")
-			DLog("applicationDidFinishLaunching) logLoc created: " + defaultLogLoc)
+			DLog("applicationDidFinishLaunching) logLoc created in pref: " + defaultLogLoc)
 		}
 		defaults.synchronize()
 		

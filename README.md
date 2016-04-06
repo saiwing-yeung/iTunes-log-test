@@ -10,12 +10,12 @@ The log file is a CSV file with these fields:
 * album
 * tracknum
 * genre
-* category - Music, iTunes U. This is not a field directly supplied by iTunes. The program determines this simply based on the location of your media file. More specifically, it grabs the directory in the path of the media that follows ~/Music/iTunes/iTunes Music/. For many media this is empty.
+* category - Music, iTunes U. This is not a field directly supplied by iTunes. The program determines this simply based on the location of your media file. More specifically, it grabs the directory in the path of the media that comes after ~/Music/iTunes/iTunes Music/. For many media this is empty.
 * length 
 * rating - This value is given by iTunes. The rating here equals the number of stars in iTunes times 20, e.g., rating of 50 = 2.5 stars, rating of 60 = 3 stars, etc.
 * count - Play Count
 
-Five of the fields (name, artist, album, genre, and category) are quoted in single quotes. Single quotes that exist inside the fields are escaped with a back-slash.
+All fields are quoted in double quotes. Double quotes that exist inside the fields are escaped with a back-slash.
 
 Default location of the log is ~/Documents/iTunes-log.csv
 
