@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22607F011CAD44FF0005EF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22607F001CAD44FF0005EF03 /* AppDelegate.swift */; };
+		22607F031CAD44FF0005EF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22607F021CAD44FF0005EF03 /* Assets.xcassets */; };
+		22607F061CAD44FF0005EF03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22607F041CAD44FF0005EF03 /* MainMenu.xib */; };
+		228F90941CAD924F00746281 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F90931CAD924F00746281 /* StatusMenuController.swift */; };
+		228F90971CAEB12B00746281 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F90951CAEB12B00746281 /* PreferencesWindow.swift */; };
+		228F90981CAEB12B00746281 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228F90961CAEB12B00746281 /* PreferencesWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22607EFD1CAD44FF0005EF03 /* log-tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "log-tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22607F001CAD44FF0005EF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22607F021CAD44FF0005EF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22607F051CAD44FF0005EF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22607F071CAD44FF0005EF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228F90931CAD924F00746281 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		228F90951CAEB12B00746281 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		228F90961CAEB12B00746281 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22607EFA1CAD44FF0005EF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22607EF41CAD44FF0005EF03 = {
+			isa = PBXGroup;
+			children = (
+				22607EFF1CAD44FF0005EF03 /* log-tunes */,
+				22607EFE1CAD44FF0005EF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22607EFE1CAD44FF0005EF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22607EFD1CAD44FF0005EF03 /* log-tunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22607EFF1CAD44FF0005EF03 /* log-tunes */ = {
+			isa = PBXGroup;
+			children = (
+				22607F001CAD44FF0005EF03 /* AppDelegate.swift */,
+				228F90931CAD924F00746281 /* StatusMenuController.swift */,
+				22607F021CAD44FF0005EF03 /* Assets.xcassets */,
+				22607F041CAD44FF0005EF03 /* MainMenu.xib */,
+				228F90951CAEB12B00746281 /* PreferencesWindow.swift */,
+				228F90961CAEB12B00746281 /* PreferencesWindow.xib */,
+				22607F071CAD44FF0005EF03 /* Info.plist */,
+			);
+			path = "log-tunes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22607EFC1CAD44FF0005EF03 /* log-tunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22607F201CAD44FF0005EF03 /* Build configuration list for PBXNativeTarget "log-tunes" */;
+			buildPhases = (
+				22607EF91CAD44FF0005EF03 /* Sources */,
+				22607EFA1CAD44FF0005EF03 /* Frameworks */,
+				22607EFB1CAD44FF0005EF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "log-tunes";
+			productName = "log-tunes";
+			productReference = 22607EFD1CAD44FF0005EF03 /* log-tunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22607EF51CAD44FF0005EF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___SWY___";
+				TargetAttributes = {
+					22607EFC1CAD44FF0005EF03 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J9N8U29JRT;
+					};
+				};
+			};
+			buildConfigurationList = 22607EF81CAD44FF0005EF03 /* Build configuration list for PBXProject "log-tunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22607EF41CAD44FF0005EF03;
+			productRefGroup = 22607EFE1CAD44FF0005EF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22607EFC1CAD44FF0005EF03 /* log-tunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22607EFB1CAD44FF0005EF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22607F031CAD44FF0005EF03 /* Assets.xcassets in Resources */,
+				228F90981CAEB12B00746281 /* PreferencesWindow.xib in Resources */,
+				22607F061CAD44FF0005EF03 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22607EF91CAD44FF0005EF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228F90941CAD924F00746281 /* StatusMenuController.swift in Sources */,
+				228F90971CAEB12B00746281 /* PreferencesWindow.swift in Sources */,
+				22607F011CAD44FF0005EF03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22607F041CAD44FF0005EF03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22607F051CAD44FF0005EF03 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22607F1E1CAD44FF0005EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22607F1F1CAD44FF0005EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22607F211CAD44FF0005EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "log-tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.saiwing-yeung.log-tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		22607F221CAD44FF0005EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "log-tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-D RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.saiwing-yeung.log-tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22607EF81CAD44FF0005EF03 /* Build configuration list for PBXProject "log-tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22607F1E1CAD44FF0005EF03 /* Debug */,
+				22607F1F1CAD44FF0005EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22607F201CAD44FF0005EF03 /* Build configuration list for PBXNativeTarget "log-tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22607F211CAD44FF0005EF03 /* Debug */,
+				22607F221CAD44FF0005EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22607EF51CAD44FF0005EF03 /* Project object */;
+}
