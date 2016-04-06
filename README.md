@@ -19,6 +19,7 @@ Five of the fields (name, artist, album, genre, and category) are quoted in sing
 
 Default location of the log is ~/Documents/iTunes-log.csv
 
+
 # Download
 
 https://github.com/saiwing-yeung/log-tunes/releases/latest
@@ -31,11 +32,9 @@ https://github.com/saiwing-yeung/log-tunes/releases/latest
 
 If you 1) pause and then un-pause, or 2) modify any attribute of the media (e.g., song name, rating, etc.) then iTunes will send us a new Play notification.
 
-We use the following algorithm to prevent from logging these spurious notifications: We check the PersistentID of the media (a unique ID that iTunes gives every media file) and the time elapsed since the last time it was played. If the PersistentID is different from the previous one AND the time elapsed is past that of the previous play time plus length of the media, then so we will record it as a new entry in the log.
+We use the following algorithm to prevent from logging these spurious notifications: We check the PersistentID of the media (a unique ID that iTunes gives every media file) and the Play Count. If the PersistentID is different from the previous one then we will log it. If PersistentID is the same then we will log it only if the play count has been incremented.
 
-This is only a heuristic though and is not 100% correct. For example, if you start playing a song but pause it after 2 seconds, then wait 10 minutes and unpause it, we would thought that these are two different plays and log twice.
-
-I am not aware of a completely foolproof way to prevent from erroneous logging.
+This is only a heuristic though and is not 100% correct.
 
 
 # ToDo
@@ -45,12 +44,12 @@ I am not aware of a completely foolproof way to prevent from erroneous logging.
 
 # Release history
 
-v0.7 (2016-04-01)
+v0.7 (2016-04-06)
 
 * initial release
 
 
 # License
 
-log-tunes is available under the GNU GPL license. See the LICENSE file for more information.
+log-tunes is available under the GNU GPL license. See the [LICENSE file](https://github.com/saiwing-yeung/log-tunes/blob/master/LICENSE) for more information.
 
