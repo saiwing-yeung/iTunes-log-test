@@ -19,6 +19,20 @@ All fields are quoted in double quotes. Double quotes that exist inside the fiel
 
 Default location of the log is ~/Documents/iTunes-log.csv. If you select an existing file in the Preferences, the new entries will be appended to the end of the file.
 
+# Utilities
+
+Inside the Utilities folder there is a [Jupyter Notebook](http://jupyter.org) analyze-log.ipynb. It takes the log produced by log-tunes and analyze the data.
+
+Currently it only very basic analyses:
+
+* Find the 10 artists that are most frequently played
+* Find the 10 media files that are most frequently played
+* Make a plot of the number of plays by hour (example below)
+
+![Frequency by hour](https://raw.githubusercontent.com/saiwing-yeung/log-tunes/master/Utilities/by-hour.png)
+
+More features will be added later.
+
 
 # Download
 
