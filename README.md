@@ -29,7 +29,9 @@ Currently it only very basic analyses:
 * Find the 10 media files that are most frequently played
 * Make a plot of the number of plays by hour (example below)
 
-![Frequency by hour](https://raw.githubusercontent.com/saiwing-yeung/log-tunes/master/Utilities/by-hour.png)
+![Frequency by hour](https://raw.githubusercontent.com/saiwing-yeung/log-tunes/master/Utilities/count-by-hour.png)
+
+![Genre by hour](https://raw.githubusercontent.com/saiwing-yeung/log-tunes/master/Utilities/genre-by-hour.png)
 
 More features will be added later.
 
