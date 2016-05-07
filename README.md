@@ -28,7 +28,7 @@ Currently it only very basic analyses:
 * Find the 10 artists that are most frequently played
 * Find the 10 media files that are most frequently played
 * Plot the number of plays by hour (below)
-* Plot the proportion of genre played by hour (below)
+* Plot the proportion of genre played by hour (below; note that the two plots are based on different data sets)
 
 ![Frequency by hour](https://raw.githubusercontent.com/saiwing-yeung/log-tunes/master/Utilities/count-by-hour.png)
 
