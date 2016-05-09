@@ -23,7 +23,7 @@ Default location of the log is ~/Documents/iTunes-log.csv. If you select an exis
 
 Inside the Utilities folder there is a [Jupyter Notebook](http://jupyter.org) analyze-log.ipynb. It takes the log produced by log-tunes and analyze the data.
 
-Currently it only very basic analyses:
+Currently it only does very basic analyses:
 
 * Find the 10 artists that are most frequently played
 * Find the 10 media files that are most frequently played
